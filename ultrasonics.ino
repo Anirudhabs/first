@@ -1,3 +1,4 @@
+// Arduino code
 
 const int trigger1 = 8; 
 const int echo1 = 9; 

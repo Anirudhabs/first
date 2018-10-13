@@ -1,3 +1,5 @@
+# Python script
+
 import serial
 import time
 import pyautogui

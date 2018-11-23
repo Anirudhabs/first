@@ -6,7 +6,7 @@ Using serial communication we can communicate between ultrasonic sensors connect
 Components required - Arduino Uno  , 2 ultrasonic sensors , jumper cables
 We are mapping distances recorded by two ultrasonic sensors and mesaages to be sent to the serial monitor and we are reading the same message in the python script using serial module
 
-Commands to install required python modules
+Commands to install required python modules -
 pip3 install pyautogui
 pip3 install time
 pip3 install serial

@@ -42,7 +42,7 @@ calculate_distance(trigger2,echo2);
 distR =dist; 
 
 
-if ((distL >40 && distR>40) && (distL <50 && distR<50)) 
+if ((distL >30 && distR>30) && (distL <50 && distR<50)) 
 {Serial.println("Play/Pause");delay(1000);}
 
 calculate_distance(trigger1,echo1);
@@ -53,11 +53,11 @@ distR =dist;
 
  
 
-if (distL>=13 && distL<=17)
+if (distL>=10 && distL<=15)
 { 
   calculate_distance(trigger1,echo1);
   distL =dist;
-  if (distL>=13 && distL<=17)
+  if (distL>=10 && distL<=15)
   {
     Serial.println("Left Locked");
     while(distL<=40)
@@ -73,11 +73,11 @@ if (distL>=13 && distL<=17)
 }
 
 
-if (distR>=13 && distR<=17)
+if (distR>=10 && distR<=15)
 { 
   calculate_distance(trigger2,echo2);
   distR =dist;
-  if (distR>=13 && distR<=17)
+  if (distR>=10 && distR<=15)
   {
     Serial.println("Right Locked");
     while(distR<=40)

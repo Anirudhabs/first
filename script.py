@@ -21,7 +21,7 @@ while 1:
         pyautogui.scroll(-50)
 
     if '1' in out:
-        pyautogui.press('right')
+        pyautogui.hotkey('ctrl', '+')
 
     if '2' in out:
-        pyautogui.press('left')
+        pyautogui.hotkey('ctrl', '-')

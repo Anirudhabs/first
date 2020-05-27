@@ -1,10 +1,9 @@
-Gesture control for laptop using ultrasonic sensors
+Gesture control for PC using ul
 
-Using arduino and only two ultrasonic sensors we can build a gesture recognition device to control pc, laptop.
+Using arduino and only two ultrasonic sensors this was built to control a computer.
 
-Using serial communication communication between ultrasonic sensors connected to arduino and computer using a python module called pyautogui( used to programatically controlling keyboard and mouse) we can control the PC
 Components required - Arduino Uno  , 2 ultrasonic sensors , jumper cables
-We are mapping distances recorded by two ultrasonic sensors and mesaages to be sent to the serial monitor and we are reading the same message in the python script using serial module.
+We are mapping distances recorded by two ultrasonic sensors and sending mesaages to the serial monitor and we are reading the same message in the python script using serial module to programmatically control keyboard and mouse. It can be customized to support any type of gestures.
 
 Install requirements and run the script to start using.
 

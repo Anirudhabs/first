@@ -1,6 +1,6 @@
-Gesture control for PC using ul
+Gesture control using ultrasonic sensors
 
-Using arduino and only two ultrasonic sensors this was built to control a computer.
+![alt text](https://github.com/anirudha-bs/Gesture-recognition/blob/master/gesture.jpg?raw=true)
 
 Components required - Arduino Uno  , 2 ultrasonic sensors , jumper cables
 We are mapping distances recorded by two ultrasonic sensors and sending mesaages to the serial monitor and we are reading the same message in the python script using serial module to programmatically control keyboard and mouse. It can be customized to support any type of gestures.
